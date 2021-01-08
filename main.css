@@ -2,8 +2,8 @@
 { 
     text-align: center;
     background-image: url('img/法拉古特徽章.jpg');
-    height: 1000px;
-    width: 1000px;
+    height: 1200px;
+    width: 1200px;
     background-position: center;
     margin: auto;
     background-size:100% 100%; 
@@ -11,6 +11,7 @@
 }
 .sousuolan
 { 
+    height:40px;
     display: inline-block;
 }
 .user-input 
@@ -22,7 +23,6 @@
     box-sizing: border-box;
     outline: none;
     text-indent: 10px;
-    line-height：10px;
 }
         
 .user-btn 
@@ -40,5 +40,17 @@
 
 .biaoti
 {
-    font-size:50px
+    height:80px;
+    font-size:50px;
+    padding: 20px;
+}
+
+.shudepaixu
+{
+    height: 800px;
+    width: 500px; 
+    background: rgba(190, 192, 191, 0.7);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
 }
