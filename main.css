@@ -53,4 +53,11 @@
     margin: auto;
     margin-top: 50px;
     border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.shudepaixu a {
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 1.5;
 }
