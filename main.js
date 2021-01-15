@@ -102,3 +102,8 @@ var sortFunction = (property) => {
         return a[property].charCodeAt(0) - b[property].charCodeAt(0) 
     } 
 }
+
+var searchBook = () => {
+    var searchKeyWord = document.getElementById("userInput").value;  
+    console.log('hi I clicked', searchKeyWord)
+}
