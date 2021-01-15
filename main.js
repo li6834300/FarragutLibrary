@@ -99,6 +99,7 @@ var createHtmlContent = () => {
 
 var sortFunction = (property) => {
     return function (a, b) {
-        return a[property].charCodeAt(0) - b[property].charCodeAt(0) 
+        return a[property].localeCompare(b[property], 'zh-CN')
+        // return a[property].charCodeAt(0) - b[property].charCodeAt(0) 
     } 
 }
