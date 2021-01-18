@@ -105,6 +105,27 @@ var sortFunction = (property) => {
 }
 
 var searchBook = () => {
-    var searchKeyWord = document.getElementById("userInput").value;  
+    var searchKeyWord = document.getElementById("userInput").value; 
+    newData = filterData(searchKeyWord, data);
+    updateHtmlContent(newData)
+    
     console.log('hi I clicked', searchKeyWord)
+}
+
+var updateHtmlContent = (newData) => {
+    document.getElementById('list').innerHTML = ''
+    for(var i = 0; i < newData.length; i++) {
+        document.getElementById('list').innerHTML = document.getElementById('list').innerHTML + 
+            '<a href="'+newData[i].path+'">'+newData[i].bookName+'</a> </br>'
+    }
+}
+
+var filterData = (keyword, oldData) => {
+    return oldData.filter(item=>item.bookName.toUpperCase().indexOf(keyword.toUpperCase())>-1)
+}
+
+var updateEvent = (event) => {
+    if(event.key == 'Enter') {
+        searchBook()
+    }
 }

@@ -14,7 +14,7 @@
                 法拉古特自主研发图书馆
             </div>
             <div class="sousuolan">
-                <input id="userInput" class="user-input" type="text" name="search" placeholder="请输入内容">
+                <input onkeydown="updateEvent(event)" id="userInput" class="user-input" type="text" name="search" placeholder="请输入内容">
                 <input class="user-btn" type="button" value="搜索" onclick="searchBook()">
             </div>
             <div class="shudepaixu" id="list">             
