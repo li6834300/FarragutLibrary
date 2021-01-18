@@ -13,6 +13,7 @@
 { 
     height:40px;
     display: inline-block;
+
 }
 .user-input 
 {
@@ -54,6 +55,7 @@
     margin-top: 50px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
+    overflow: auto;
 }
 
 .shudepaixu a {

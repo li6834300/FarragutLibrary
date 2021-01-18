@@ -79,6 +79,34 @@ window.onload = function() {
         {
             bookName: "worldHistory",
             path: './books/worldHistory.docx'
+        }, 
+        {
+            bookName: "worldHistory1",
+            path: './books/worldHistory1.pdf'
+        }, 
+        {
+            bookName: "worldHistory2",
+            path: './books/worldHistory2.pdf'
+        }, 
+        {
+            bookName: "worldHistory3",
+            path: './books/worldHistory3.pdf'
+        }, 
+        {
+            bookName: "worldHistory4",
+            path: './books/worldHistory4.pdf'
+        }, 
+        {
+            bookName: "worldHistory5",
+            path: './books/worldHistory5.pdf'
+        }, 
+        {
+            bookName: "worldHistory6",
+            path: './books/worldHistory6.pdf'
+        }, 
+        {
+            bookName: "worldHistory7",
+            path: './books/worldHistory7.docx'
         }
     ]
 
