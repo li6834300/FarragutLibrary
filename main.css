@@ -56,10 +56,11 @@
     border-radius: 20px;
     color: rgb(255, 255, 255);
     overflow: auto;
+    padding: 30px;
 }
 
 .shudepaixu a {
     color:rgb(0, 0, 0);
     font-size: 30px;
-    line-height: 1.5;
+    line-height:50px;
 }
